@@ -14,6 +14,7 @@ notifications:
   apiKey: "key-f7ee90739991b0b6c58ea152165d3dad"
   domain: "zongren.me"
 path: _data/{options.slug}
+branch: "master"
 requiredFields: ["name", "message"]
 transforms:
   email: md5
