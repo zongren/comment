@@ -2,8 +2,8 @@ staticman:
   port: '80'
   githubToken: 'c690fb37070fc67bf7f1b9d36fe7ecc9d6b087fc'
   branch: 'master'
-  allowedFields: ['name', 'email', 'message']
-  requiredFields: ['name', 'email', 'message']
+  allowedFields: ['name', 'markdown', 'message']
+  requiredFields: ['name', 'markdown', 'message']
   format: 'json'
   moderation: false
   path: _data/{options.slug}
