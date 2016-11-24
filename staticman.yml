@@ -14,7 +14,13 @@ comments:
     enabled: false
     apiKey: ""
     domain: ""
-  akismet.enabled
+  akismet: 
+    enabled: true
+    author: "name"
+    authorEmail: "email"
+    authorUrl: "url"
+    content: "message"
+    type: "comment"
   path: _data/{options.slug}
   requiredFields: ["name", "message"]
   transforms:
