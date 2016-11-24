@@ -1,27 +1,26 @@
-comments:
-  allowedFields: ["name", "markdown", "email", "url", "message"]
-  allowedOrigins: ["zongren.me"]
-  filename: comment-{@timestamp}
-  format: "json"
-  generatedFields:
-    date:
-      type: "date"
-      options:
-        format: "iso8601"
-  moderation: true
-  name: "宗仁的博客"
-  notifications:
-    enabled: false
-    apiKey: ""
-    domain: ""
-  akismet: 
-    enabled: true
-    author: "name"
-    authorEmail: "email"
-    authorUrl: "url"
-    content: "message"
-    type: "comment"
-  path: _data/{options.slug}
-  requiredFields: ["name", "message"]
-  transforms:
-    email: md5
+allowedFields: ["name", "markdown", "email", "url", "message"]
+allowedOrigins: ["zongren.me"]
+filename: comment-{@timestamp}
+format: "json"
+generatedFields:
+  date:
+    type: "date"
+    options:
+      format: "iso8601"
+moderation: true
+name: "宗仁的博客"
+notifications:
+  enabled: false
+  apiKey: ""
+  domain: ""
+akismet: 
+  enabled: true
+  author: "name"
+  authorEmail: "email"
+  authorUrl: "url"
+  content: "message"
+  type: "comment"
+path: _data/{options.slug}
+requiredFields: ["name", "message"]
+transforms:
+  email: md5
