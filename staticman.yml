@@ -1,0 +1,20 @@
+comments:
+  allowedFields: ["name", "markdown", "email", "url", "message"]
+  allowedOrigins: ["zongren.me"]
+  filename: comment-{@timestamp}
+  format: "json"
+  generatedFields:
+    date:
+      type: "date"
+      options:
+        format: "iso8601"
+  moderation: true
+  name: "宗仁的博客"
+  notifications:
+    enabled: true
+    apiKey: "1q2w3e4r"
+    domain: "4r3e2w1q"
+  path: _data/{options.slug}
+  requiredFields: ["name", "message"]
+  transforms:
+    email: md5
