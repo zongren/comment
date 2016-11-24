@@ -1,4 +1,4 @@
-allowedFields: ["name", "markdown", "email", "url", "message"]
+allowedFields: ["name", "email", "url", "message"]
 requiredFields: ["name", "message"]
 format: "json"
 generatedFields:
@@ -6,7 +6,6 @@ generatedFields:
     type: "date"
     options:
       format: "iso8601"
-name: "宗仁"
 moderation: true
 branch: "master"
 path: _data/{options.slug}
