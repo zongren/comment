@@ -1,5 +1,5 @@
 allowedFields: ["name", "markdown", "email", "url", "message"]
-allowedOrigins: ["zongren.me"]
+allowedOrigins: ["https://zongren.me", "http://zongren.me", "https://www.zongren.me", "http://www.zongren.me"]
 filename: comment-{@timestamp}
 format: "json"
 generatedFields:
