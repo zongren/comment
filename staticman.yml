@@ -1,4 +1,4 @@
-allowedFields: ["name", "markdown", "message"]
+allowedFields: ["name", "markdown", "email", "url", "message"]
 allowedOrigins: "zongren.me"
 filename: comment-{@timestamp}
 format: "json"
@@ -10,7 +10,7 @@ generatedFields:
 moderation: true
 name: "宗仁的博客"
 notifications:
-  enabled: false
+  enabled: true
   apiKey: "key-f7ee90739991b0b6c58ea152165d3dad"
   domain: "zongren.me"
 path: _data/{options.slug}
