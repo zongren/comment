@@ -1,6 +1,5 @@
 allowedFields: ["name", "markdown", "email", "url", "message"]
 requiredFields: ["name", "message"]
-allowedOrigins: "zongren.me"
 format: "json"
 generatedFields:
   date:
