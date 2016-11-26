@@ -12,3 +12,10 @@ path: _data/{options.slug}
 filename: comment-{@timestamp}
 transforms:
   email: md5
+name: "宗仁的博客"
+allowedOrigins: ["localhost", "zongren.me"]
+notifications: 
+  enabled: true
+  apiKey: "qPB1uWby7FS6T0wgLqUfjcQkkVtLkcergXOqiEoZyTo5yqMmGU/cuzOD825KOZkvbE7m0mOYo2LKPj82v+BcQDxxcIULev8lwpQ1KZJwjv6Ei3f1HbFyIq5N2Ehmya3PyPGga3IaedFVTPFrue67DQ2W5+tu8xJX1S2PahUEgAA="
+  domain: "KcqORHyYeEB8eJo6LrR+KNVlOTwTonFXQl2NNYarjZjITx6ugXMG8Af932K6kDenpcJ9tRGaSPasdcl4pX9TQeglERAft+OXDQ6hb/JtAxvubcHEEBHZFYPBqFkUBQ0sQLfmNY9CwH+2aN/OCd1cewabSY9Ps5bq/Nw2QIi2c/M="
+  
