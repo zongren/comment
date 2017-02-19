@@ -1,4 +1,4 @@
-allowedFields: ["name", "email", "url", "message", "origin", "parent", "subscribe"]
+allowedFields: ["name", "email", "url", "message", "origin", "parent", "subscribe","reply","replyTarget"]
 requiredFields: ["name", "message"]
 format: "json"
 generatedFields:
