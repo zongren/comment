@@ -8,7 +8,7 @@ generatedFields:
       format: "iso8601"
 moderation: false
 branch: "master"
-path: {options.slug}
+path: /{options.slug}
 filename: comment-{@timestamp}
 transforms:
   email: md5
