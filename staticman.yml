@@ -13,6 +13,4 @@ filename: comment-{@timestamp}
 transforms:
   email: md5
 name: "宗仁的博客"
-allowedOrigins: ["localhost", "zongren.me"]
-
-
+allowedOrigins: ["zongren.me"]
