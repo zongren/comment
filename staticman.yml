@@ -1,5 +1,5 @@
-allowedFields: ["name", "email", "url", "message", "origin", "parent", "reply","replyTarget","path"]
-requiredFields: ["name", "message"]
+allowedFields: ["namev2", "messagev2", "email", "url", "origin", "parent", "reply","replyTarget","path"]
+requiredFields: ["namev2", "messagev2"]
 format: "json"
 generatedFields:
   date:
