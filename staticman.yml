@@ -16,5 +16,5 @@ name: "宗仁的博客"
 allowedOrigins: ["zongren.me"]
 reCaptcha:
   enabled: true
-  siteKey: "YOUR-SITE-KEY"
-  secret: "YOUR-ENCRYPTED-SECRET"
+  siteKey: "6Lc2I1sUAAAAAOOl41o2WYYuMqua90lDtLvA6sy_"
+  secret: "MoHl9zAQdTMkopKWL2a6+idNed+h6JnBKBaesPKXCXnocPq9RvPxkb92+zzjjlf1K8pyqgc2Bbf2RIgKq84ED5+EaLWp/+87WwH7/6t/M29M5d/q0TGeqN1jeNyZqHye+DfIHtLLYWZnCBAfpzJJEiXbFcK/j9l5W8suKSVr75g="
