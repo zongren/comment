@@ -14,3 +14,7 @@ transforms:
   email: md5
 name: "宗仁的博客"
 allowedOrigins: ["zongren.me"]
+reCaptcha:
+  enabled: true
+  siteKey: "YOUR-SITE-KEY"
+  secret: "YOUR-ENCRYPTED-SECRET"
