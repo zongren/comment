@@ -1,0 +1,1 @@
+{"_id":"50168ef0-a99f-11e8-a35f-f529256716de","_parent":"board","reply":"","replyTarget":"","namev2":"zongren","email":"","url":"","messagev2":"Android Studio Gradle Sync的时候出现以下错误\r\n```\r\nCause: error in opening zip file\r\n```\r\n\r\n解决方法，删除`~/.gradle/wrapper/`下对应版本的gradle，重新Sync，估计是文件损坏之类的吧。。。","path":"board/index.html","date":"2018-08-27T02:17:14.875Z"}
