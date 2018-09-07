@@ -1,0 +1,1 @@
+{"_id":"7af1e520-b26e-11e8-afd3-cbef5b601756","_parent":"board","reply":"","replyTarget":"","namev2":"zongren","email":"","url":"","messagev2":"输出换行\r\n```\r\necho -e \"this is \\n new line\"\r\nsed -i 's/test/new \\\r\nnew line/g' test.file\r\n```","path":"board/index.html","date":"2018-09-07T07:20:21.887Z"}
