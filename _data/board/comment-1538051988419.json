@@ -1,0 +1,1 @@
+{"_id":"6b6184a0-c252-11e8-94f7-ed09f2515ddf","_parent":"board","reply":"","replyTarget":"","namev2":"zongren","email":"","url":"","messagev2":"获取android id\r\n```\r\nadb shell settings get secure android_id\r\n\r\n```","path":"board/index.html","date":"2018-09-27T12:39:48.418Z"}
